@@ -1,8 +1,3 @@
-from ultralytics import YOLOv10
-
-model = YOLOv10('yolov10n.yaml')
-model.model.model[-1].export = True
-model.model.model[-1].format = 'onnx'
-del model.model.model[-1].cv2
-del model.model.model[-1].cv3
-model.fuse()
+version https://git-lfs.github.com/spec/v1
+oid sha256:573d429c00eb3bfe36d45c22cea37b6a8a7955ad32cb2a5438aae4d76552a553
+size 212

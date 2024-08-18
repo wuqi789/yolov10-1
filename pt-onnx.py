@@ -1,9 +1,3 @@
-from ultralytics import YOLO
-
-# load a pretrained model (recommended for training)
-model = YOLO('E:/yolov10-main/runs/train/exp2/weights/last.pt')
-
-# Export the model
-success = model.export(format='onnx')
-
-print(success)
+version https://git-lfs.github.com/spec/v1
+oid sha256:57bec80ed82a6a93e1870729017f3269db91a5b0400cfc9d6fc1561e3ec9c973
+size 230
